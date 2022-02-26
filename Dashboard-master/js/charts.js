@@ -10,3 +10,5 @@ var citiesChart = document.getElementById("myPieChart");
 
 // Liner Chart for Rat
 var ratChart = document.getElementById("myLinearChart");
+
+
