@@ -7,55 +7,72 @@
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link href="css/styles.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
 </head>
 
 <body>
     
-    <nav>
         <!-- Navbar Brand-->
-        <nav class="navbar navbar-light bg-light fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Offcanvas navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
+          <div class="container-fluid">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand" href="index.html">Nrt Solution</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="orders.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Orders
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">1</a></li>
+                    <li><a class="dropdown-item" href="#">2</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="report.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Reports
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="customers.html">Customers</a>
+                </li>
+              </ul>
             </div>
-          </nav>
-        <a href="index.html">Nrt Solution</a>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search for.." aria-label="Search">
+              <button class="btn bg-pink" type="submit"></button>
+            </form>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            
+          </div>
+        </nav>
+        
+                   
+          
+        
         <!-- Sidebar Toggle Icon-->
         <!-- Navbar Search-->
         <!-- User Profile-->
@@ -74,7 +91,109 @@
             
             <main>
                 <!-- Reports Cards -->
+                <div class="container mt-3">
+                 <h2>Dashboard</h2> Dashboard
+                 <div class="row align-items-start">
+                  <div class="col-md-3 col-sm-6 mt-3">
+                    <div class="card bg-pink">
+                      <div class="card-body">
+                        <p class="text-center"> Sales<br>3450.00 SAR</p>
+                      </div>
+                      <div class="card-footer">
+                        <p>
+                            View Details
+                          
+                      </p>
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 mt-3">
+                    <div class="card bg-pink">
+                      <div class="card-body">
+                        <p class="text-center"> Orders <br> 1890 </p>
+                       
+                      </div>
+                      <div class="card-footer">View Details
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 mt-3">
+                    <div class="card bg-pink">
+                      <div class="card-body">
+                        <p class="text-center">Visitors <br> 352</p>
+                        
+                      </div>
+                      <div class="card-footer">View Details
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6 mt-3">
+                    <div class="card bg-pink">
+                      <div class="card-body">
+                        <p class="text-center">Conversion Rate<br> 3.75%</p>
+                        
+                      </div>
+                      <div class="card-footer">View Details
+                      </div>
+                    </div>
+                  </div>
+                 </div>
                 <!-- Reports Chart -->
+                <div class="row">
+                  <div class="col-md-6 mt-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Orders
+                      </div>
+                      <div class="card-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mt-3">
+                    <div class="card">
+                      <div class="card-header">
+                        Visitors
+                      </div>
+                      <div class="card-body">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Reports Chart -->
+                <div class="row">
+                  <div class="col-md-6 mt-3">
+                    <div class="card">
+                      <div class="card-header">
+                        Visitors Cities
+                      </div>
+                      <div class="card-body">
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mt-3">
+                    <div class="card">
+                      <div class="card-header">
+                        Customers Rate
+                      </div>
+                      <div class="card-body">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
                 <!-- Customers Table -->
             </main>
             
@@ -83,10 +202,12 @@
             </footer>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <script src="js/charts.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    
+     
 </body>
 </html>
